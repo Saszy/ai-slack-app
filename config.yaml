@@ -1,0 +1,14 @@
+confluence:
+  url: "https://your-domain.atlassian.net"
+  username: "your-email@company.com"
+  api_token: "your-api-token"
+  
+postgres:
+  host: "localhost"
+  port: 5432
+  database: "your_db"
+  user: "your_user"
+  password: "your_password"
+  allowed_tables:
+    - "public_table_1"
+    - "public_table_2"
